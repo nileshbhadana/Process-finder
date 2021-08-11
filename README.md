@@ -28,24 +28,27 @@ The output file name is `process-info.txt`.
 ---
 ## 🛠️ Guide
 
-### How to execute the script
-```
-chmod +x process.sh
-./process.sh
-```
+### How to run the script
 
-OR
+1. Downloading the script. 
 
-```
-bash ./process.sh
-```
+    ```
+    git clone https://github.com/nileshbhadana/Process-finder.git
+    cd Process-finder/
+    ```
+2. Executing the script.
+
+    ```
+    chmod +x process.sh
+    ./process.sh
+    ```
 
 ### How to check output
 - The output file will be present in your current directory i.e. from where you ran your script.
 
-```
-cat process-info.txt
-```
+    ```
+    cat process-info.txt
+    ```
 
 - This how a sample output would look like:
 
