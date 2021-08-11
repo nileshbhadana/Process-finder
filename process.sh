@@ -25,7 +25,7 @@ FetchDetails() {
     DATE=$(date)
 
     # Writing the details to the file
-    echo -e "$DATE \n[ Details of process which has 3rd highest $RESOURCE usage ] \nPID - $PID \nMemory Usage - $MEMORY_USAGE \nCPU Usage - $CPU_USAGE \nCommand/Name - $COMMAND \nPort - $PORT \n" >> process-details.txt
+    echo -e "$DATE \n[ Details of process which has 3rd highest $RESOURCE usage ] \nPID - $PID \nMemory Usage - $MEMORY_USAGE \nCPU Usage - $CPU_USAGE \nCommand/Name - $COMMAND \nPort - $PORT \n" >> process-info.txt
     
 }
 

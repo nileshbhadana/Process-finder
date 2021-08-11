@@ -21,8 +21,6 @@ The output file name is `process-info.txt`.
 
     >ps
     
-    >sed
-    
     >cut
     
     >awk
@@ -45,6 +43,10 @@ bash ./process.sh
 ### How to check output
 - The output file will be present in your current directory i.e. from where you ran your script.
 
+```
+cat process-info.txt
+```
+
 - This how a sample output would look like:
 
-![Screenshot](./img/output.png)
+![Screenshot](img/output.png)
